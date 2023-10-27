@@ -1,0 +1,11 @@
+package parser;
+
+public class HistoryFlag {
+	public static int HISTORY_FLAG_INSIDE_UNION = 0b00000001;
+	public static int HISTORY_FLAG_IS_UPWARD_STACK = 0b00000010;
+	public static int HISTORY_FLAG_IS_GLOBAL_SCOPE = 0b00000100;
+	public static int HISTORY_FLAG_INSIDE_STRUCTURE = 0b00001000;
+	public static int HISTORY_FLAG_INSIDE_FUNCTION_BODY = 0b00010000;
+	public static int HISTORY_FLAG_IN_SWITCH_STATEMENT = 0b00100000;
+	public static int HISTORY_FLAG_PARENTHESES_IS_NOT_A_FUNCTION_CALL = 0b01000000;
+}

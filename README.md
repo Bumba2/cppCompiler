@@ -1,4 +1,5 @@
 Das Projekt "cppCompiler" wurde im Rahmen meiner Masterarbeit an der Technischen Universität Chemnitz realisiert.
+Die Masterarbeit ist unter dem Link https://monarch.qucosa.de/landing-page/https%3A%2F%2Fmonarch.qucosa.de%2Fapi%2Fqucosa%253A90440%2Fmets%2F/ abrufbar.
 Es ist kein fertiger C++-Compiler, sondern beinhaltet ein statisches Clean-Code-Analyse-Tool.
 Dabei bezieht sich der umgesetzte Parser lediglich auf ein Subset von C++.
 Dabei wird Java-Code verwendet, um C++-Code aus einer lokalen Datei zu scannen. Nach dem Scannen ist der Code in sogenannte Tokens (lexikalische Einheiten) aufgeteilt.
